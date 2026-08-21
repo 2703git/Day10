@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Test8 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter string: ");
+        String str = scanner.nextLine();
+        Main main = new Main();
+        System.out.println(main.Pr8(str));
+    }
+}
